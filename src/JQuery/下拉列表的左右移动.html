@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉列表的左右移动</title>
+    <style>
+        #leftName,#button,#rightName{
+            float: left;
+        }
+        #leftName,#rightName{
+            height: 200px;
+        }
+        #button{
+            margin-top: 50px;
+        }
+    </style>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#toRight").click(function () {
+                //获取右边的下拉列表的对象 append(左边下拉列表的option)
+                $("#rightName").append($("#leftName > option:selected"))
+            })
+            $("#toLift").click(function () {
+                $("#rightName >option:selected").appendTo($("#leftName"))
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="border">
+    <select id="leftName" multiple="multiple">
+        <option>张三</option>
+        <option>李四</option>
+        <option>王五</option>
+        <option>赵六</option>
+    </select>
+    <div id="button">
+        <input type="button" value="-->" id="toRight"><br>
+        <input type="button" value="<--" id="toLift">
+    </div>
+    <select id="rightName" multiple="multiple">
+        <option>张三</option>
+    </select>
+</div>
+</body>
+</html>

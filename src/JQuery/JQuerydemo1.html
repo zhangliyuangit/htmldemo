@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <link href="http://at.alicdn.com/t/font_1780393_f3hgige18f8.css">
+</head>
+<body>
+    <div id="div1">div1...</div>
+    <i class="icon-chenggongbiaoqing"></i>
+
+
+    <script>
+        var div1 = $("#div1");
+        alert(div1.html())
+
+        var divs = document.getElementsByTagName("div");
+        alert(divs)//可以将其作为数组来使用
+        for (var i=0;i<divs.length;i++){
+            divs[i].innerHTML = "aaaa";
+        }
+
+
+        var $divs = $("div")
+        $divs.html("bbb")
+        alert($divs)
+    </script>
+</body>
+</html>

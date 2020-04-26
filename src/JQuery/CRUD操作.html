@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+                // <input type="button" id="b1" value="将反恐放到city后面">
+            $("#b1").click(function () {
+                //append
+                //$("#city").append($("#fk"))
+                //appendto
+                $("#fk").appendTo($("#city"))
+            })
+                // <input type="button" id="b2" value="将反恐防止到city最前面">
+            $("#b2").click(function () {
+                //prepend
+                //$("#city").prepend($("#fk"))
+                //prependTo
+                $("#fk").prependTo($("#city"))
+            })
+                // <input type="button" id="b3" value="将反恐插入到天津后面">
+            $("#b3").click(function () {
+                //after
+                //$("#tj").after($("#fk"))
+                //insertAfter
+                $("#fk").insertAfter($("#tj"))
+            })
+                // <input type="button" id="b4" value="将反恐插入到天津前面">
+            $("#b4").click(function () {
+                //before
+                $("#fk").before($("#tj"))
+            })
+
+            $("#b5").click(function () {
+                $("#bj").remove();
+            })
+
+            $("#b6").click(function () {
+                $("#city").empty();
+            })
+        })
+    </script>
+</head>
+<body>
+<input type="button" id="b1" value="将反恐放到city后面">
+<input type="button" id="b2" value="将反恐防止到city最前面">
+<input type="button" id="b3" value="将反恐插入到天津后面">
+<input type="button" id="b4" value="将反恐插入到天津前面">
+<input type="button" id="b5" value="删除id=bj  北京">
+<input type="button" id="b6" value="删除city的所有子节点">
+
+<ul id="city">
+    <li id="bj" name="beijing">北京</li>
+    <li id="tj" name="tianjin">天津</li>
+    <li id="hb" name="hebei">河北</li>
+</ul>
+<ul id="love">
+    <li id="fk" name="fankong">反恐</li>
+    <li id="xh" name="xinghuang">星皇</li>
+</ul>
+</body>
+</html>

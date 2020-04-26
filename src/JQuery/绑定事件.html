@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绑定事件</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            // $("#name").click(function () {
+            //     alert("我被点击了")
+            // });
+            //
+            // $("#name").mouseover(function () {
+            //     alert("鼠标来了")
+            // })
+
+            $("#name").mouseover(function () {
+                alert("鼠标来了。。")
+            }).mouseout(function () {
+                alert("鼠标走了。。")
+            })
+        })
+    </script>
+</head>
+<body>
+<input id="name" type="text" value="绑定点击事件">
+</body>
+</html>

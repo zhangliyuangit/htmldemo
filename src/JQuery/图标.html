@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图标</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <style>
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <script>
+        $(function () {
+            //需求点击表情，将其追加到发言框中
+            //给img添加onclick事件
+            $("ul img").click(function () {
+                //追加到p标签中
+                $(".word").append($(this).clone())
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="emoji">
+    <ul>
+    <li><img src="../img/400表情_表情.png"></li>
+    <li><img src="../img/401表情_微笑.png"></li>
+    <li><img src="../img/402表情_哭脸.png"></li>
+    <li><img src="../img/403表情_吃惊.png"></li>
+    <li><img src="../img/405表情_耍酷.png"></li>
+    <li><img src="../img/406表情_魔鬼.png"></li>
+    <li><img src="../img/407表情_尴尬.png"></li>
+    <li><img src="../img/408表情_亲.png"></li>
+    <li><img src="../img/411表情_生气.png"></li>
+    <li><img src="../img/415表情_惊呆.png"></li>
+    <li><img src="../img/416表情_晕.png"></li>
+    </ul>
+    <p class="word">
+        <strong>请发言:</strong>
+    </p>
+</div>
+
+</body>
+</html>

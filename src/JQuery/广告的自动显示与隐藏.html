@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>广告的自动显示与隐藏</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        /*需求：
+         1.当页面加载完后。3秒后，自动显示广告
+         2.当广告显示5秒后自动消失
+         分析：
+         1.使用定时器来完成。setTimeout(执行一次)
+         2.JQuery的动画效果就是控制display属性
+        */
+        //入口函数，在页面加载完成后定义定时器，调用这两个方法
+        $(function () {
+            //定时器 调用adShow()方法
+            setTimeout(adShow,3000);
+
+            setTimeout(adHide,8000);
+        })
+        //显示广告方法
+        function adShow() {
+            //获取广告div 调用show方法
+            $("#ad").show("slow");
+        }
+        //隐藏广告方法
+        function adHide() {
+            $("#ad").hide("slow");
+        }
+    </script>
+</head>
+<body>
+<div>
+    <div id="ad" style="display: none;">
+        <img src="../img/广告.jpg">
+    </div>
+
+    <div id="content">
+        正文部分
+    </div>
+</div>
+</body>
+</html>

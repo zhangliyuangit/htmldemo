@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM操作</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            //获取myinput的value值
+            //var value = $("#myinput").val();
+            //alert(value);
+            //$("#myinput").val("李四");
+
+            //获取mydiv的标签体内容
+            // var html = $("#mydiv").html();
+            // alert(html)
+            // $("#mydiv").html("aaa");
+
+            // var text = $("#mydiv").text();
+            // alert(text)
+            //$("#mydiv").text("bbb");
+
+            // var name = $("#bj").attr("name");
+            // alert(name)
+
+            // $("#bj").attr("name","dabeijing")
+
+            //$("#bj").attr("discription","didu");
+
+            $("#bj").removeAttr("name");
+        })
+    </script>
+</head>
+<body>
+<input type="text" id="myinput" name="username" value="张三">
+<div id="mydiv"><p><a href="#">标题标签</a></p></div>
+
+
+<ul>
+    <li id="bj" name="beijing"  xxx="yyy">北京</li>
+    <li id="tj" name="tianjin" xxx="xxx">天津</li>
+</ul>
+</body>
+</html>

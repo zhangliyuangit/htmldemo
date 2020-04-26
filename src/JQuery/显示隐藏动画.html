@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示隐藏动画</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <style>
+        #showDiv{
+            background-color: green;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+    <script>
+        //隐藏div
+        function hideFn() {
+            $("#showDiv").fadeOut("fast","swing")
+        }
+        //切换显示和隐藏div
+        function toggleFn() {
+            $("#showDiv").fadeToggle()
+        }
+        //显示div
+        function showFn() {
+            $("#showDiv").fadeIn()
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="点击按钮隐藏div" onclick="hideFn();">
+<input type="button" value="点击按钮显示div" onclick="showFn();">
+<input type="button" value="点击按钮切换div显示和隐藏" onclick="toggleFn();">
+
+<div id="showDiv">
+    div的显示和隐藏
+</div>
+</body>
+</html>

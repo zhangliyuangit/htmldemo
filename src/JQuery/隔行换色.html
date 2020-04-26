@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隔行换色</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <style>
+        td{
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        $(function () {
+            //获取奇数行  设置背景色为pink
+            $("tr:gt(0):odd").css("backgroundColor","pink");
+            //获取偶数行的背景色为yellow
+            $("tr:gt(0):even").css("backgroundColor","yellow");
+        })
+
+        function selectAll(obj) {
+            $(".Select").prop("checked",obj.checked)
+        }
+    </script>
+</head>
+<body>
+<table style="align-content: center;margin: auto" border="1px" >
+    <tr>
+        <th><input type="checkbox" onclick="selectAll(this);"></th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="Select"></td>
+        <td>张三</td>
+        <td>男</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="Select"></td>
+        <td>李四</td>
+        <td>男</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="Select"></td>
+        <td>李四</td>
+        <td>男</td>
+        <td>20</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="120bda0d-dba1-485e-8c80-f5ed5510dc38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/github/demo" />
+  </component>
+  <component name="ProjectId" id="1ayQrpa8nyPmsLkczAD6mKKWNlk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/github/demo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\49572\IdeaProjects\htmldemo\src\img" />
+      <recent name="C:\Users\49572\IdeaProjects\htmldemo\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="120bda0d-dba1-485e-8c80-f5ed5510dc38" name="Default Changelist" comment="" />
+      <created>1587705554820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587705554820</updated>
+      <workItem from="1587705556086" duration="5771000" />
+      <workItem from="1587778103936" duration="12495000" />
+      <workItem from="1587814302731" duration="916000" />
+      <workItem from="1587864163255" duration="13601000" />
+      <workItem from="1587901849423" duration="833000" />
+    </task>
+    <task id="LOCAL-00001" summary="瞎几把改的">
+      <created>1587902380393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587902380393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="瞎几把改的" />
+    <option name="LAST_COMMIT_MESSAGE" value="瞎几把改的" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587708999224">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587708999224" />
+    <state x="157" y="0" key="CommitChangelistDialog2" timestamp="1587902379615">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="157" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587902379615" />
+    <state x="389" y="85" key="FileChooserDialogImpl" timestamp="1587902167606">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="85" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587902167606" />
+    <state x="436" y="263" key="Github.CreateGistDialog" timestamp="1587902619203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="436" y="263" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1587902619203" />
+    <state x="499" y="243" width="283" height="282" key="Github.ShareDialog" timestamp="1587902554443">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="499" y="243" width="283" height="282" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1587902554443" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587714914146">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587714914146" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587714914145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587714914145" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587714914145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587714914145" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587714914145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587714914145" />
+    <state x="20" y="0" width="1023" height="680" key="SettingsEditor" timestamp="1587902681991">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="20" y="0" width="1023" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587902681991" />
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2" timestamp="1587902636766">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587902636766" />
+    <state x="407" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587902595394">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="407" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1587902595394" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587891458400">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587891458400" />
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        /*
+        分析：
+        1.给开始按钮绑定单击事件
+            1.1定义循环定时器
+            1.2切换小相框的src属性
+                定义一个数组，存放图片资源的路径
+                生成随机数 数组索引
+        2.给结束按钮绑定单击事件
+            2.1停止定时器
+            2.2给大相框设置src属性
+         */
+        var imgs = ["../img/1.jpg","../img/2.jpg","../img/3.jpg","../img/4.jpg","../img/5.jpg","../img/6.jpg","../img/0.jpg"]
+        var startId;//开始定时器的一个Id
+        var index;
+        $(function () {
+            //开始按钮
+            $("#startID").click(function () {
+                startId = setInterval(function () {
+                    //生成随机角标
+                    index = Math.floor(Math.random() * 7)
+                    //设置小相框的src属性
+                    $("#img1ID").prop("src",imgs[index]);
+                },20)
+            })
+            //结束按钮
+            $("#stopID").click(function () {
+                $("#stopID").click(function () {
+                    //停止定时器
+                    clearInterval(startId)
+                    $("#img2ID").prop("src",imgs[index]);
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<!--小相框-->
+<div style="border-style: dotted;width: 160px;height: 100px;">
+    <img id="img1ID" style="width: 160px;height: 100px" src="../img/1.jpg">
+</div>
+
+<!--大相框-->
+<div style="border-style: dotted;height: 500px;position: absolute;left: 500px;top: 10px">
+    <img src="../img/1.jpg" id="img2ID" width="800px"height="600px">
+</div>
+
+<!--开始按钮-->
+<input id="startID" type="button" value="点击开始" style="width: 150px;height: 50px;font-size: 22px">
+
+<!--停止按钮-->
+<input id="stopID" type="button" value="点击停止" style="width: 150px;height: 50px;font-size: 22px">
+</body>
+</html>

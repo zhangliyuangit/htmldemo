@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>遍历</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            // var citys = $("#city");
+            // //遍历
+            // for (var i=0;i<citys.length;i++){
+            //     alert(citys[i].innerHTML)
+            // }
+
+            var citys = $("#city li")
+            // citys.each(function (index,element) {
+            //     //alert(this.innerHTML)
+            //     alert(index+":"+$(element).html())
+            // })
+
+            // $.each(citys,function () {
+            //     alert($(this).html())
+            // })
+
+            for (li of citys){
+                alert($(li).html())
+            }
+        })
+    </script>
+</head>
+<body>
+<ul id="city">
+    <li>北京</li>
+    <li>上海</li>
+    <li>天津</li>
+    <li>河北</li>
+</ul>
+</body>
+</html>
